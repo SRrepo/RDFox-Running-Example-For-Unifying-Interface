@@ -1,4 +1,4 @@
-CSPARQL Example Runner (Implements Unifying Benchmarking Interface)
+RDFox Example Runner (Implements Unifying Benchmarking Interface)
 ===================
 **Requirements:**
  * Java 7+
@@ -13,6 +13,6 @@ CSPARQL Example Runner (Implements Unifying Benchmarking Interface)
 **The project has one main file:**
 * **MainFiles.RDFoxRunningExample**:
    1. The runner connects to the configuration URL (http://localhost:11111/configuration.json) and parses the configuration 
-   2. The runner registers the streams and queries that are specified in the configuration in the C-SPARQL engine 
+   2. The runner registers the streams and queries that are specified in the configuration in the RDFox-Wrapper engine 
    3. The runner executes the continuous queries and saves the answers
    4. Whenever the streams do not continue sending RDF data, the runner publishes the answers (http://localhost:11112/answers.json)
